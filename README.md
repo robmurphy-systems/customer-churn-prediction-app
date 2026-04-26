@@ -22,28 +22,36 @@ Customer churn directly impacts revenue and growth. Acquiring new customers is s
 1) Which customers are at risk of leaving?
 2) What factors contribute most to churn?
 3) How can teams proactively intervene?
-⚙️ Tech Stack
-Python
-Scikit-learn
-Pandas / NumPy
-Streamlit or Gradio (for UI)
-Deployment: Hugging Face Spaces
-📊 Model Details
-Algorithm: Random Forest Classifier (or update with your model)
-Target: Binary classification (Churn / No Churn)
-Key Metrics:
+
+**Tech Stack**
+
+1) Python
+2) Scikit-learn
+3) Pandas / NumPy
+4) Streamlit - for UI
+5) Deployment: Hugging Face Spaces
+
+**Model Details** 
+1) Algorithm: Random Forest Classifier 
+2) Target: Binary classification (Churn / No Churn)
+
+**Key Metrics:**
+
 Accuracy: XX%
+
 Precision: XX%
+
 Recall: XX%
 
 Focus was placed on minimizing false negatives (i.e., customers predicted to stay but actually churn), as these represent missed retention opportunities.
 
-🖥️ Application Features
-Interactive input for customer attributes
-Real-time churn prediction
-Probability scoring for risk assessment
-Simple UI for non-technical users
-🧪 Project Structure
+**Application Features**
+1) Interactive input for customer attributes
+2) Real-time churn prediction
+3) Probability scoring for risk assessment
+4) Simple UI for non-technical user
+
+6) Project Structure
 customer-churn-prediction-app/
 │
 ├── app.py
