@@ -4,6 +4,8 @@
 
 This is an end-to-end machine learning application for predicting customer churn, deployed as an interactive web app on Hugging Face. It provides real-time inference, business-focused metrics, and a production-oriented design bridging data science and enterprise delivery.
 
+The design supports portability and can be containerized for deployment across environments (e.g., Docker/Kubernetes), enabling scalability and consistency in production.
+
 The goal is not just model accuracy—but enabling real-time, business-friendly decision support for customer retention strategies.
 
 ### **Live Demo**
