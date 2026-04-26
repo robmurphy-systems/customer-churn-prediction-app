@@ -5,7 +5,7 @@ End-to-end ML churn prediction app deployed on Hugging Face. Provides real-time 
 
 **Overview**
 
-*This project predicts customer churn using machine learning and delivers the results through an interactive web application deployed on Hugging Face.
+This project predicts customer churn using machine learning and delivers the results through an interactive web application deployed on Hugging Face.
 
 The goal is not just model accuracy—but enabling real-time, business-friendly decision support for customer retention strategies.
 
