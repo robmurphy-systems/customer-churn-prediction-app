@@ -9,21 +9,21 @@ This project predicts customer churn using machine learning and delivers the res
 
 The goal is not just model accuracy—but enabling real-time, business-friendly decision support for customer retention strategies.
 
-**Live Demo**
+### **Live Demo**
 
 https://huggingface.co/spaces/bobasami/third
 
-**Business Problem**
+### **Business Problem**
 
 Customer churn directly impacts revenue and growth. Acquiring new customers is significantly more expensive than retaining existing ones.
 
-**This application helps answer:**
+### **This application helps answer:**
 
 1) Which customers are at risk of leaving?
 2) What factors contribute most to churn?
 3) How can teams proactively intervene?
 
-**Tech Stack**
+### **Tech Stack**
 
 1) Python
 2) Scikit-learn
@@ -31,25 +31,24 @@ Customer churn directly impacts revenue and growth. Acquiring new customers is s
 4) Streamlit - for UI
 5) Deployment: Hugging Face Spaces
 
-**Model Details** 
+### **Model Details** 
 1) Algorithm: Random Forest Classifier 
 2) Target: Binary classification (Churn / No Churn)
 
-**Key Metrics:**
+### **Key Metrics:**
 
 1) Accuracy: XX%
 2) Precision: XX%
 3) Recall: XX%
 
-Focus was placed on minimizing false negatives (i.e., customers predicted to stay but actually churn), as these represent missed retention opportunities.
+#### Focus was placed on minimizing false negatives (i.e., customers predicted to stay but actually churn), as these represent missed retention opportunities.
 
-**Application Features**
+### **Application Features**
 1) Interactive input for customer attributes
 2) Real-time churn prediction
 3) Probability scoring for risk assessment
 4) Simple UI for non-technical user
-
-6) Project Structure
+5) Project Structure
 
 customer-churn-prediction-app/
 │
@@ -60,34 +59,34 @@ customer-churn-prediction-app/
 ├── requirements.txt
 └── README.md
 
-**Production Considerations**
+### **Production Considerations**
 
 This project was designed with real-world deployment in mind:
 
-**Reproducibility:** Environment captured via requirements.txt
+### **Reproducibility:** Environment captured via requirements.txt
 
-**Scalability:** Can be containerized using Docker
+### **Scalability:** Can be containerized using Docker
 
-**Monitoring:** Model performance should be tracked over time for drift
+### **Monitoring:** Model performance should be tracked over time for drift
 
-**Retraining Strategy:** Periodic retraining recommended as customer behavior evolves
+### **Retraining Strategy:** Periodic retraining recommended as customer behavior evolves
 
-**Why This Matters** 
+### **Why This Matters** 
 
  - Even small improvements in churn prediction can:
    -Increase customer lifetime value (CLV)
    -Reduce acquisition costs
    -Improve targeted marketing efficiency
 
-This bridges the gap between data science experimentation and business impact.
+#### This bridges the gap between data science experimentation and business impact.
 
-**Future Enhancements**
+### **Future Enhancements**
 1) Add feature importance visualization
 2) Integrate with real-time data pipelines
 3) Deploy via containerized infrastructure (Docker/Kubernetes)
 4) Add model monitoring dashboard
 
-Author
+### Author
 
 Robert Murphy
 Solutions Engineering | AI/ML | Hybrid Cloud
