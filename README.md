@@ -37,11 +37,9 @@ Customer churn directly impacts revenue and growth. Acquiring new customers is s
 
 **Key Metrics:**
 
-Accuracy: XX%
-
-Precision: XX%
-
-Recall: XX%
+1) Accuracy: XX%
+2) Precision: XX%
+3) Recall: XX%
 
 Focus was placed on minimizing false negatives (i.e., customers predicted to stay but actually churn), as these represent missed retention opportunities.
 
@@ -52,6 +50,7 @@ Focus was placed on minimizing false negatives (i.e., customers predicted to sta
 4) Simple UI for non-technical user
 
 6) Project Structure
+
 customer-churn-prediction-app/
 │
 ├── app.py
@@ -60,30 +59,35 @@ customer-churn-prediction-app/
 ├── notebook/
 ├── requirements.txt
 └── README.md
-🏗️ Production Considerations
+
+**Production Considerations**
 
 This project was designed with real-world deployment in mind:
 
-Reproducibility: Environment captured via requirements.txt
-Scalability: Can be containerized using Docker
-Monitoring: Model performance should be tracked over time for drift
-Retraining Strategy: Periodic retraining recommended as customer behavior evolves
-📈 Why This Matters
+**Reproducibility:** Environment captured via requirements.txt
 
-Even small improvements in churn prediction can:
+**Scalability:** Can be containerized using Docker
 
-Increase customer lifetime value (CLV)
-Reduce acquisition costs
-Improve targeted marketing efficiency
+**Monitoring:** Model performance should be tracked over time for drift
+
+**Retraining Strategy:** Periodic retraining recommended as customer behavior evolves
+
+**Why This Matters** 
+
+ - Even small improvements in churn prediction can:
+   -Increase customer lifetime value (CLV)
+   -Reduce acquisition costs
+   -Improve targeted marketing efficiency
 
 This bridges the gap between data science experimentation and business impact.
 
-🔮 Future Enhancements
-Add feature importance visualization
-Integrate with real-time data pipelines
-Deploy via containerized infrastructure (Docker/Kubernetes)
-Add model monitoring dashboard
-👤 Author
+**Future Enhancements**
+1) Add feature importance visualization
+2) Integrate with real-time data pipelines
+3) Deploy via containerized infrastructure (Docker/Kubernetes)
+4) Add model monitoring dashboard
+
+Author
 
 Robert Murphy
 Solutions Engineering | AI/ML | Hybrid Cloud
